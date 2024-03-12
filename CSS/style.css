@@ -1,0 +1,268 @@
+body{
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+@font-face{
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+.imgContainer,.imgContainer2{
+    height: 370px;
+    width: 550px;
+    background-image: url(../img/Branch_March2023-224_3_1.webp);
+    background-size: 101%;
+    background-position: center;
+    transition: 0.5s;
+}
+.imgContainer:hover,.imgContainer2:hover{
+    background-size: 105%;
+}
+main>h2,
+.allPurchases>h2,
+.mainOffer>h2{
+    color: #314438;
+    font-family:serif;
+    text-align: center;
+    font-size: 40px;
+}
+.mainInfoCard>h3{
+    color: #8cc1d2;
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.mainInfoCard>p{
+    margin-top: 5px;
+}
+.imgContainer2{
+    background-image: url(../img/pl-branch-conference-table-fa22-detail-866_2.webp);
+}
+.mainInfo,.maininfo2{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20%;
+    flex-wrap: wrap;
+}
+.imgContainer3,
+.imgContainer4,
+.imgContainer5{
+    width: 360px;
+    height: 540px;
+    background-image: url(../img/Desks_6b21f763-4f8b-421b-9f03-375da3e13b18.webp);
+    background-size: 120%;
+    background-position: center;
+    transition: 0.5s;
+}
+.imgContainer3:hover,
+.imgContainer4:hover,
+.imgContainer5:hover{
+    background-size: 125%;
+}
+.mainInfoCard2>h3{
+    color: #314438;
+    font-size: 25px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    text-align: center;
+}
+.mainInfoCard2>p{
+    color: #8cc1d2;
+    font-weight: bold;
+    margin-top: 5px;
+    text-align: center;
+}
+.imgContainer4{
+    background-image: url(../img/Office_Chairs.webp);
+}
+.imgContainer5{
+    background-image: url(../img/Accessories_fccae7c6-505a-4204-b0db-22c1fbe51e75.webp);
+}
+.allPurchases,.mainOffer{
+    background-color: #f3f0ed;
+    padding: 5% 20%;
+    margin-top: 5%;
+}
+.allPurchases>h2{
+    text-align: left;
+}
+
+.allPurchasesCard>img{
+    width: 265px;
+}
+.allPurchasesCard{
+    width: 265px;
+    background-color: white;
+    transition: 0.5s;
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.alltext{
+    padding: 0 20px 20px 20px;
+}
+.alltext>p{
+    margin-top: 3px;
+    color: #314438;
+    font-weight: 100;
+}
+.text>h3,
+.text>p{
+    font-family:Montserrat;
+    color: #314438;
+}
+
+.allPurchasesCards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.allPurchasesCard:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.150);
+}
+footer{
+    background-color: #314438;
+    padding: 5% 20%;
+}
+.socialNetworks img{
+    width: 30px;
+}
+.contants>input{
+    border: none;
+    outline: none;
+    width: 300px;
+    height: 30px;
+    background-color: #4a5b50;
+    padding-left: 20px;
+}
+input::-webkit-input-placeholder{
+    color: white;
+}
+.contants>h2{
+    font-family: 'Times New Roman', Times, serif;
+    color:#8c9790;
+    font-size: 40px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+
+}
+.socialNetworks{
+    margin-top: 25px;
+}
+.socialNetworks>a{
+    margin-right: 10px;
+}
+.contants>p{
+    color: white;
+}
+.contants>h3{
+    color:#8c9790;
+}
+.contants>a{
+    color: white;
+    text-decoration: none;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.mainOffer>p{
+    text-align: center;
+    margin-top: 0;
+    font-weight: 200;
+}
+.mainOffer>h2{
+    margin-bottom: 5px;
+}
+.offer>img{
+    width: 140px;
+    height: 140px;
+}
+.offers,.offers2{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    padding: 15px;
+    flex-wrap: wrap;
+}
+.allOffers{
+    display: flex;
+    margin-top: 50px;
+}
+.offers2{
+    background-color: white;
+}
+.offer{
+    width: 150px;
+}
+.offer>h3{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0;
+    margin-top: 10px;
+}
+@media(max-width:768px){
+    .imgContainer,.imgContainer2{
+        height: 300px;
+        width: 450px
+    }
+    .mainInfo,.maininfo2{
+        justify-content: center;
+    }
+    .allPurchasesCards{
+        justify-content: center;
+    }
+    .allPurchasesCard{
+        margin-top: 20px;
+    }
+    .allPurchases>h2{
+        text-align: center;
+    }
+}
+@media(max-width:320px){
+    main>h2,
+    .allPurchases>h2,
+    .mainOffer>h2{
+        font-size: 30px;
+    }
+    .allOffers{
+        flex-wrap: wrap;
+    }
+    .imgContainer,.imgContainer2{
+        height: 100px;
+        width: 200px;
+    }
+    .mainInfoCard>h3{
+        font-size: 20px;
+    }
+    .mainInfoCard>p,.mainOffer>p{
+        font-size: 15px;
+    }
+    .offer>img{
+        width: 100px;
+        height: 100px;
+    }
+    .allOffers{
+        justify-content: center;
+    }
+    .imgContainer3,
+    .imgContainer4,
+    .imgContainer5{
+        width: 190px;
+        height: 300px;
+    }
+    .allPurchasesCard{
+        width: 200px;
+        margin-bottom: 50px;
+    }
+    .allPurchasesCard>img{
+        width: 200px;
+    }
+    .contants>input{
+        width: 150px;
+    }
+}
